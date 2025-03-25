@@ -1,32 +1,18 @@
-# `Turborepo` Vite starter
+# Accessibility Starter template
 
-This is a community-maintained example. If you experience a problem, please submit a pull request with a fix. GitHub Issues will be closed.
+## Why ?
 
-## Using this example
+I want to provide a good starting point to be able to build accessible from thestart for a new project.
 
-Run the following command:
+- Headless CMS to seperate content
+- Chakra-ui for best chance of having accessible UI as a shared package
+- A simple react-Vite setup (but you can add react native apps or nextjs or remix projects)
 
-```sh
-npx create-turbo@latest -e with-vite-react
-```
+## The components
 
-## What's inside?
-
-This Turborepo includes the following packages and apps:
-
-### Apps and Packages
-
-- `web`: react [vite](https://vitejs.dev) ts app
-- `@repo/ui`: a stub component library shared by `web` application
-- `@repo/eslint-config`: shared `eslint` configurations
-- `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
-
-Each package and app is 100% [TypeScript](https://www.typescriptlang.org/).
-
-### Utilities
-
-This Turborepo has some additional tools already setup for you:
-
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
+- TurboRepo
+- Strapi
+- react + Vite
+- Chakra - UI v3
+- Playwright
+- Pally and Axe
